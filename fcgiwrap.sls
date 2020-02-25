@@ -1,7 +1,9 @@
 fcgiwrap:
-  pkg.installed
+  pkg:
+    - installed
 
-  service.running:
+  service:
+    - running
     - enable: True
     - reload: True
     - watch:
