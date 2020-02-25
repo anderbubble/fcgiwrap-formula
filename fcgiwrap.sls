@@ -1,5 +1,5 @@
 fcgiwrap:
-  pkg.installed:
+  pkg.installed
 
 fcgiwrap:
   service.running:
